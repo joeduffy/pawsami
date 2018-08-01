@@ -1,0 +1,13 @@
+{
+  "name": "pawsami",
+  "version": "0.1.0",
+  "description": "Don't hard-code your AMIs!",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@pulumi/aws": "^0.14.5",
+    "aws-sdk": "^2.284.1"
+  },
+  "devDependencies": {}
+}
