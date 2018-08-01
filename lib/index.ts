@@ -36,7 +36,6 @@ export function getLinuxAmi(instanceType: aws.ec2.InstanceType, region?: aws.Reg
                         }
                     }
                     if (newestImage) {
-                        console.log(`AMI: ${newestImage} (${newestImageDate})`);
                         resolve(newestImage);
                     } else {
                         reject("No Linux AMI found for the current region");
