@@ -42,9 +42,9 @@ call this library:
 
 ```typescript
 import * as aws from "@pulumi/aws";
-import * as pawsami from "pawsami";
+import { getLinuxAmi } from "pawsami";
 
 let vm = new aws.ec2.Instance("webserver, {
-    ami: pawsami.getLinuxAmi(..., ...),
+    ami: getLinuxAmi(..., ...),
 });
 ```
